@@ -19,7 +19,20 @@ switch ($view) {
         $view = $view . "-view.php";
         require_once "./views/Categories/" . $view;
         break;
-    default:
+
+case "productos":
+    session_start(["name" => "SistemaVentas"]);
+    $view = $view . "-views.php";
+    require_once "./views/productos/" . $view;
+    break;
+
+    case "clientes":
+        session_start(["name" => "SistemaVentas"]);
+        $view = $view . "-views.php";
+        require_once "./views/crientes/" . $view;
+        break;
+
+default:
         echo "Pagina no encontrada 404";
         break;
 }
