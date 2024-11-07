@@ -115,8 +115,7 @@
                                 <td>00%</td>
                                 <td>stock</td>
                                 <tr>
-                                    <button class="btn-action edit">Editar</button>
-                                    <button class="btn-action delete">Eliminar</button>
+                                
                                 </td>
                             </tr>
 

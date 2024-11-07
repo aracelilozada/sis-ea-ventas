@@ -29,7 +29,7 @@ case "productos":
     case "clientes":
         session_start(["name" => "SistemaVentas"]);
         $view = $view . "-views.php";
-        require_once "./views/crientes/" . $view;
+        require_once "./views/clientes/" . $view;
         break;
 
 default:
